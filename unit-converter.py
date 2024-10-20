@@ -13,6 +13,10 @@ Last Modified: Oct 19 2924
 
 May your storage always be sufficient and your conversions accurate! 🎉
 """
+from colorama import init, Fore, Style
+
+# Initialize colorama
+init()
 
 # Hey there, storage unit converter extraordinaire! Let's break down some bytes, shall we? 🚀💾
 
@@ -52,7 +56,7 @@ to_unit = input("Enter the target unit (B, KB, MB, GB, TB, PB) - the sky's the l
 result = convert_storage(value, from_unit, to_unit)
 
 # Drum roll, please... 🥁
-print(f"Abracadabra! {value:,.2f} {from_unit} is equal to {result:,.2f} {to_unit}")
+print(f"Abracadabra! {value:,.2f} {from_unit} is equal to {Fore.GREEN}{result:,.2f}{Style.RESET_ALL} {Fore.YELLOW}{to_unit}{Style.RESET_ALL}")
 
 # And there you have it, folks! You've just witnessed a storage unit transformation! 
 # Remember, in the world of bytes, we're all just trying to find our place. 😉💻
