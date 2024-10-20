@@ -55,6 +55,31 @@ Enter the target unit (B, KB, MB, GB, TB, PB) - the sky's the limit: MB
 Abracadabra! 1.0 GB is equal to 1024.0 MB
 ```
 
+## 🎉 What's New? (Changes)
+
+### 🌟 Version 1.1: The "Pretty Print" Update 🖨️
+
+Hold onto your SSDs, folks! We've just pushed an update that'll make your conversions look as slick as they calculate! Here's what's new:
+
+- **Gorgeous Output**: Say goodbye to number soup! We've added thousand separators to make those big numbers easy on the eyes. 👀✨
+- **Decimal Delight**: We've trimmed the fat on those trailing decimals. Now you'll see a tidy 2 decimal places. Precision meets beauty!
+
+Before (Yawn 🥱):
+
+```bash
+Abracadabra! 1234567.89 MB is equal to 1.234567890 TB
+```
+
+After (Wow! 😍):
+
+```bash
+Abracadabra! 1,234,567.89 MB is equal to 1.23 TB
+```
+
+Why did we do this? Because we believe that even bytes deserve to look their best! 💅
+
+So go ahead, give it a spin! Your converted units are ready for their glamour shot. Who said math can't be fabulous? 🎭🚀
+
 ## Who's Behind This Sorcery? 🧑‍💻
 
 This script was crafted by Jose Luis Chafardet Grimaldi at a point in time where he was a little bored but wanted to keep exploring some algorithms. If you have any questions, feel free to reach out!

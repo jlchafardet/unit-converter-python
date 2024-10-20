@@ -52,7 +52,7 @@ to_unit = input("Enter the target unit (B, KB, MB, GB, TB, PB) - the sky's the l
 result = convert_storage(value, from_unit, to_unit)
 
 # Drum roll, please... 🥁
-print(f"Abracadabra! {value} {from_unit} is equal to {result} {to_unit}")
+print(f"Abracadabra! {value:,.2f} {from_unit} is equal to {result:,.2f} {to_unit}")
 
 # And there you have it, folks! You've just witnessed a storage unit transformation! 
 # Remember, in the world of bytes, we're all just trying to find our place. 😉💻
