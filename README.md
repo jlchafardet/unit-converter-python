@@ -80,6 +80,34 @@ Why did we do this? Because we believe that even bytes deserve to look their bes
 
 So go ahead, give it a spin! Your converted units are ready for their glamour shot. Who said math can't be fabulous? 🎭🚀
 
+### 🌈 Version 1.2: The "Technicolor Dream Code" Update 🎨
+
+Hold onto your pixels, because we're painting the town... err, terminal! 🖌️✨ Our latest update is here to make your conversions not just accurate, but downright dazzling!
+
+What's new in this kaleidoscope of an update?
+
+- **Greener Pastures**: Your conversion results are now a beautiful, soothing green. It's like they're growing right before your eyes! 🌱
+- **Mellow Yellow**: The target unit now shines in a sunny yellow. Because why should bananas have all the fun? 🍌
+- **Resetting Rainbows**: We've added color resets to ensure your terminal doesn't turn into a disco ball. Party responsibly! 🕺💃
+
+Before (Monochrome Madness 😴):
+
+```bash
+Abracadabra! 1,234,567.89 MB is equal to 1.23 TB
+```
+
+After (Chromatic Celebration 🎉):
+
+```bash
+Abracadabra! 1,234,567.89 MB is equal to 1.23 TB
+```
+
+(Imagine the '1.23' in a lush green and 'TB' in a cheerful yellow!)
+
+Why did we do this? Because life's too short for boring terminals! Now your storage conversions are not just calculations, they're tiny digital light shows. 🌟
+
+Fire up that terminal and feast your eyes on this technicolor triumph. Who says coding can't be a work of art? 🎭🖼️
+
 ## Who's Behind This Sorcery? 🧑‍💻
 
 This script was crafted by Jose Luis Chafardet Grimaldi at a point in time where he was a little bored but wanted to keep exploring some algorithms. If you have any questions, feel free to reach out!
