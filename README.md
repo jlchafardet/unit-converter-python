@@ -98,9 +98,8 @@ Abracadabra! 1,234,567.89 MB is equal to 1.23 TB
 
 After (Chromatic Celebration 🎉):
 
-```bash
-Abracadabra! 1,234,567.89 MB is equal to 1.23 TB
-```
+![Screenshot from 2024-10-21 01-00-16](https://github.com/user-attachments/assets/9e564fd0-4cc0-48e0-996c-3866107f342d)
+
 
 (Imagine the '1.23' in a lush green and 'TB' in a cheerful yellow!)
 
