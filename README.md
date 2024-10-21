@@ -100,9 +100,6 @@ After (Chromatic Celebration 🎉):
 
 ![Screenshot from 2024-10-21 01-00-16](https://github.com/user-attachments/assets/9e564fd0-4cc0-48e0-996c-3866107f342d)
 
-
-(Imagine the '1.23' in a lush green and 'TB' in a cheerful yellow!)
-
 Why did we do this? Because life's too short for boring terminals! Now your storage conversions are not just calculations, they're tiny digital light shows. 🌟
 
 Fire up that terminal and feast your eyes on this technicolor triumph. Who says coding can't be a work of art? 🎭🖼️
