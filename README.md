@@ -16,8 +16,12 @@ This magical script can convert between:
 - Gigabytes (GB)
 - Terabytes (TB)
 - Petabytes (PB)
+- Millimeters (MM)
+- Centimeters (CM)
+- Meters (M)
+- Kilometers (KM)
 
-Whether you're dealing with the tiniest byte or a colossal petabyte, we've got you covered!
+Whether you're dealing with the tiniest byte or a colossal petabyte, or measuring distances from millimeters to kilometers, we've got you covered!
 
 ## How to Use This Wizardry 🧙‍♂️
 
@@ -50,8 +54,8 @@ Whether you're dealing with the tiniest byte or a colossal petabyte, we've got y
 
 ```bash
 Enter the value (go wild!): 1
-Enter the source unit (B, KB, MB, GB, TB, PB) - we don't judge: GB
-Enter the target unit (B, KB, MB, GB, TB, PB) - the sky's the limit: MB
+Enter the source unit (B, KB, MB, GB, TB, PB, MM, CM, M, KM) - we don't judge: GB
+Enter the target unit (B, KB, MB, GB, TB, PB, MM, CM, M, KM) - the sky's the limit: MB
 Abracadabra! 1.0 GB is equal to 1024.0 MB
 ```
 
@@ -102,7 +106,14 @@ After (Chromatic Celebration 🎉):
 
 Why did we do this? Because life's too short for boring terminals! Now your storage conversions are not just calculations, they're tiny digital light shows. 🌟
 
-Fire up that terminal and feast your eyes on this technicolor triumph. Who says coding can't be a work of art? 🎭🖼️
+### 🌈 Version 1.3: The "Input Validation Hero" Update 🦸‍♂️
+
+We're stepping up our input validation game! Here's what's new:
+
+- **Negative Input Protection**: No more pesky negative values ruining your conversions! We've got you covered with input validation that ensures only positive numbers are accepted.
+- **Ctrl+C Cancellation**: Need to cancel your conversion in a hurry? No problem! We've added support for abrupt cancellations (Ctrl+C) to exit gracefully.
+
+Why did we do this? Because we care about your conversion experience! 💕
 
 ## Who's Behind This Sorcery? 🧑‍💻
 
