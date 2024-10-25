@@ -1,27 +1,28 @@
 """
 ========================================
-Storage Unit Converter 🚀💾
+Universal Unit Converter 🚀📏💾
 ========================================
 
-This script converts between different storage units (B, KB, MB, GB, TB, PB).
-It's like a universal translator for your bytes!
+This script converts between different storage units (B, KB, MB, GB, TB, PB)
+and distance units (mm, cm, m, km).
+It's like a universal translator for your bytes and steps!
 
 Author: Jose Luis Chafardet Grimaldi
 Email: jose.chafardet@icloud.com
 Created: Oct 19 2924
-Last Modified: Oct 19 2924
+Last Modified: Oct 20 2023
 
-May your storage always be sufficient and your conversions accurate! 🎉
+May your storage always be sufficient and your distances accurately measured! 🎉
 """
 from colorama import init, Fore, Style
 
 # Initialize colorama
 init()
 
-# Hey there, storage unit converter extraordinaire! Let's break down some bytes, shall we? 🚀💾
+# Hey there, unit conversion maestro! Ready to juggle some bytes and measure the universe? 🚀📏💾
 
 def convert_storage(value, from_unit, to_unit):
-    # Alright, let's set up our unit party! 🎉
+    # Alright, let's set up our digital dance floor! 💃💾
     # Each unit gets a VIP pass with its value in bytes
     units = {
         'B': 1,                # Byte, the life of the party!
@@ -41,22 +42,63 @@ def convert_storage(value, from_unit, to_unit):
     # Ta-da! Our converted value, ready to party in its new unit! 🎊
     return result
 
-# Let's take this baby for a spin, shall we? 🚗💨
+def convert_distance(value, from_unit, to_unit):
+    # Time to stretch our legs and measure the world! 🌍🦵
+    # Each unit gets a spot on our cosmic ruler
+    units = {
+        'MM': 0.001,    # Millimeter, for when you're feeling really small
+        'CM': 0.01,     # Centimeter, perfect for measuring snails
+        'M': 1,         # Meter, the OG of distance
+        'KM': 1000      # Kilometer, for when you're going the extra mile (literally)
+    }
+    
+    # First, let's convert to meters. It's like finding our common ground!
+    meters_value = value * units[from_unit.upper()]
+    
+    # Now, let's convert from meters to our target unit. Stretch or shrink as needed!
+    result = meters_value / units[to_unit.upper()]
+    
+    # Voila! Our distance, ready for its debut in its new unit! 🎭
+    return result
 
-# Ask the user for a value. Any value. Don't be shy!
+def get_unit_input(prompt, valid_units):
+    # Let's play a little Q&A game, shall we? 🎮
+    while True:
+        unit = input(prompt).upper()
+        if unit in valid_units:
+            return unit
+        print(f"Oops! That unit is playing hide and seek. Try one of these: {', '.join(valid_units)}")
+
+# Let's kick off this conversion party! 🎉
+
+# What's your flavor? Bytes or steps?
+print("What's your unit of choice today?")
+conversion_type = input("Type 'storage' for bytes and bits, or 'distance' for lengths and widths: ").lower()
+
+if conversion_type == 'storage':
+    valid_units = ['B', 'KB', 'MB', 'GB', 'TB', 'PB']
+    convert_func = convert_storage
+elif conversion_type == 'distance':
+    valid_units = ['MM', 'CM', 'M', 'KM']
+    convert_func = convert_distance
+else:
+    print("Whoopsie! That's not on our menu. Let's call it a day, shall we?")
+    exit()
+
+# Time for some number crunching!
 value = float(input("Enter the value (go wild!): "))
 
-# What unit are we starting with? B, KB, MB? The choice is yours!
-from_unit = input("Enter the source unit (B, KB, MB, GB, TB, PB) - we don't judge: ")
+# Where are we starting from?
+from_unit = get_unit_input(f"Enter the source unit ({', '.join(valid_units)}) - we don't judge: ", valid_units)
 
-# And where do we want to end up? Dream big!
-to_unit = input("Enter the target unit (B, KB, MB, GB, TB, PB) - the sky's the limit: ")
+# And where do we want to end up?
+to_unit = get_unit_input(f"Enter the target unit ({', '.join(valid_units)}) - the sky's the limit: ", valid_units)
 
 # Time to work some magic! ✨🎩
-result = convert_storage(value, from_unit, to_unit)
+result = convert_func(value, from_unit, to_unit)
 
 # Drum roll, please... 🥁
 print(f"Abracadabra! {value:,.2f} {from_unit} is equal to {Fore.GREEN}{result:,.2f}{Style.RESET_ALL} {Fore.YELLOW}{to_unit}{Style.RESET_ALL}")
 
-# And there you have it, folks! You've just witnessed a storage unit transformation! 
-# Remember, in the world of bytes, we're all just trying to find our place. 😉💻
+# And there you have it, folks! You've just witnessed a unit transformation! 
+# Remember, whether it's bytes or meters, we're all just trying to measure up. 😉📏💻
