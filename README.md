@@ -20,6 +20,7 @@ This magical script can convert between:
 - Centimeters (CM)
 - Meters (M)
 - Kilometers (KM)
+- Inches (IN)  <!-- New addition -->
 
 Whether you're dealing with the tiniest byte or a colossal petabyte, or measuring distances from millimeters to kilometers, we've got you covered!
 
@@ -54,9 +55,9 @@ Whether you're dealing with the tiniest byte or a colossal petabyte, or measurin
 
 ```bash
 Enter the value (go wild!): 1
-Enter the source unit (B, KB, MB, GB, TB, PB, MM, CM, M, KM) - we don't judge: GB
-Enter the target unit (B, KB, MB, GB, TB, PB, MM, CM, M, KM) - the sky's the limit: MB
-Abracadabra! 1.0 GB is equal to 1024.0 MB
+Enter the source unit (B, KB, MB, GB, TB, PB, MM, CM, M, KM, IN) - we don't judge: IN
+Enter the target unit (B, KB, MB, GB, TB, PB, MM, CM, M, KM, IN) - the sky's the limit: CM
+Abracadabra! 1.0 IN is equal to 2.54 CM
 ```
 
 ## 🎉 What's New? (Changes)
@@ -114,6 +115,12 @@ We're stepping up our input validation game! Here's what's new:
 - **Ctrl+C Cancellation**: Need to cancel your conversion in a hurry? No problem! We've added support for abrupt cancellations (Ctrl+C) to exit gracefully.
 
 Why did we do this? Because we care about your conversion experience! 💕
+
+### 🌈 Version 1.4: The "Inch-perfect" Update 📏
+
+Get ready to measure up with our latest addition: inches! We've extended our distance conversion functionality to include inches (IN). Now you can convert between inches and other units with ease.
+
+Why did we do this? Because we believe that every unit deserves a place in the spotlight! 💫
 
 ## Who's Behind This Sorcery? 🧑‍💻
 
