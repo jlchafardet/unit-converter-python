@@ -4,7 +4,7 @@ Universal Unit Converter 🚀📏💾
 ========================================
 
 This script converts between different storage units (B, KB, MB, GB, TB, PB)
-and distance units (mm, cm, m, km).
+and distance units (mm, cm, m, km, inches).
 It's like a universal translator for your bytes and steps!
 
 Author: Jose Luis Chafardet Grimaldi
@@ -49,7 +49,8 @@ def convert_distance(value, from_unit, to_unit):
         'MM': 0.001,    # Millimeter, for when you're feeling really small
         'CM': 0.01,     # Centimeter, perfect for measuring snails
         'M': 1,         # Meter, the OG of distance
-        'KM': 1000      # Kilometer, for when you're going the extra mile (literally)
+        'KM': 1000,     # Kilometer, for when you're going the extra mile (literally)
+        'IN': 0.0254    # Inch, because sometimes you just need a little bit more precision!
     }
     
     # First, let's convert to meters. It's like finding our common ground!
@@ -95,7 +96,7 @@ try:
         valid_units = ['B', 'KB', 'MB', 'GB', 'TB', 'PB']
         convert_func = convert_storage
     elif conversion_type == 'distance':
-        valid_units = ['MM', 'CM', 'M', 'KM']
+        valid_units = ['MM', 'CM', 'M', 'KM ', 'IN']
         convert_func = convert_distance
     else:
         print("Whoopsie! That's not on our menu. Let's call it a day, shall we?")
