@@ -10,17 +10,19 @@ Ever found yourself drowning in a sea of bytes, kilobytes, and gigabytes? Fear n
 
 This magical script can convert between:
 
-- Bytes (B)
-- Kilobytes (KB)
-- Megabytes (MB)
-- Gigabytes (GB)
-- Terabytes (TB)
-- Petabytes (PB)
-- Millimeters (MM)
-- Centimeters (CM)
-- Meters (M)
-- Kilometers (KM)
-- Inches (IN)  <!-- New addition -->
+* Storage:
+  * Bytes (B)
+  * Kilobytes (KB)
+  * Megabytes (MB)
+  * Gigabytes (GB)
+  * Terabytes (TB)
+  * Petabytes (PB)
+* Distance:
+  * Millimeters (MM)
+  * Centimeters (CM)
+  * Meters (M)
+  * Kilometers (KM)
+  * Inches (IN)
 
 Whether you're dealing with the tiniest byte or a colossal petabyte, or measuring distances from millimeters to kilometers, we've got you covered!
 
@@ -45,9 +47,9 @@ Whether you're dealing with the tiniest byte or a colossal petabyte, or measurin
    ```
 
 4. Follow the prompts:
-   - Enter the value you want to convert
-   - Enter the unit you're converting from
-   - Enter the unit you're converting to
+   * Enter the value you want to convert
+   * Enter the unit you're converting from
+   * Enter the unit you're converting to
 
 5. Voila! Watch in awe as your units are magically converted! ✨
 
@@ -66,8 +68,8 @@ Abracadabra! 1.0 IN is equal to 2.54 CM
 
 Hold onto your SSDs, folks! We've just pushed an update that'll make your conversions look as slick as they calculate! Here's what's new:
 
-- **Gorgeous Output**: Say goodbye to number soup! We've added thousand separators to make those big numbers easy on the eyes. 👀✨
-- **Decimal Delight**: We've trimmed the fat on those trailing decimals. Now you'll see a tidy 2 decimal places. Precision meets beauty!
+* **Gorgeous Output**: Say goodbye to number soup! We've added thousand separators to make those big numbers easy on the eyes. 👀✨
+* **Decimal Delight**: We've trimmed the fat on those trailing decimals. Now you'll see a tidy 2 decimal places. Precision meets beauty!
 
 Before (Yawn 🥱):
 
@@ -91,9 +93,9 @@ Hold onto your pixels, because we're painting the town... err, terminal! 🖌️
 
 What's new in this kaleidoscope of an update?
 
-- **Greener Pastures**: Your conversion results are now a beautiful, soothing green. It's like they're growing right before your eyes! 🌱
-- **Mellow Yellow**: The target unit now shines in a sunny yellow. Because why should bananas have all the fun? 🍌
-- **Resetting Rainbows**: We've added color resets to ensure your terminal doesn't turn into a disco ball. Party responsibly! 🕺💃
+* **Greener Pastures**: Your conversion results are now a beautiful, soothing green. It's like they're growing right before your eyes! 🌱
+* **Mellow Yellow**: The target unit now shines in a sunny yellow. Because why should bananas have all the fun? 🍌
+* **Resetting Rainbows**: We've added color resets to ensure your terminal doesn't turn into a disco ball. Party responsibly! 🕺💃
 
 Before (Monochrome Madness 😴):
 
@@ -111,8 +113,8 @@ Why did we do this? Because life's too short for boring terminals! Now your stor
 
 We're stepping up our input validation game! Here's what's new:
 
-- **Negative Input Protection**: No more pesky negative values ruining your conversions! We've got you covered with input validation that ensures only positive numbers are accepted.
-- **Ctrl+C Cancellation**: Need to cancel your conversion in a hurry? No problem! We've added support for abrupt cancellations (Ctrl+C) to exit gracefully.
+* **Negative Input Protection**: No more pesky negative values ruining your conversions! We've got you covered with input validation that ensures only positive numbers are accepted.
+* **Ctrl+C Cancellation**: Need to cancel your conversion in a hurry? No problem! We've added support for abrupt cancellations (Ctrl+C) to exit gracefully.
 
 Why did we do this? Because we care about your conversion experience! 💕
 
