@@ -96,7 +96,7 @@ try:
         valid_units = ['B', 'KB', 'MB', 'GB', 'TB', 'PB']
         convert_func = convert_storage
     elif conversion_type == 'distance':
-        valid_units = ['MM', 'CM', 'M', 'KM ', 'IN']
+        valid_units = ['MM', 'CM', 'M', 'KM', 'IN']  # Fixed here
         convert_func = convert_distance
     else:
         print("Whoopsie! That's not on our menu. Let's call it a day, shall we?")
