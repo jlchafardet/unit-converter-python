@@ -10,7 +10,7 @@ It's like a universal translator for your bytes and steps!
 Author: Jose Luis Chafardet Grimaldi
 Email: jose.chafardet@icloud.com
 Created: Oct 19 2024
-Last Modified: Oct 25 2024
+Last Modified: ONov 2 2024
 
 May your storage always be sufficient and your distances accurately measured! 🎉
 """
