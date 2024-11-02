@@ -124,6 +124,33 @@ Get ready to measure up with our latest addition: inches! We've extended our dis
 
 Why did we do this? Because we believe that every unit deserves a place in the spotlight! 💫
 
+### 🌈 Version 1.5: The "Help Me Help You" Update 🦮
+
+Drumroll please! 🥁 We've just made our converter even more user-friendly with a brand new help system that actually... helps!
+
+What's cooking in this helper-focused update?
+
+* **Help When You Need It**: Type 'help' at the main prompt and watch the magic happen! We'll show you all the available options and gently guide you back to the start. Because everyone needs a helping hand sometimes! 🤝
+* **Smoother Flow**: We've redesigned the program flow to make it more intuitive. No more getting stuck in conversion limbo! 🌊
+* **Better Navigation**: After viewing help, you'll smoothly return to the welcome message. It's like having a built-in GPS for your conversions! 🧭
+
+Before (Confusing Times 😕):
+
+```bash
+Enter the value (go wild!): help
+*confused silence*
+```
+
+After (Helpful Times 😊):
+
+```bash
+Type 'storage' for bytes and bits, or 'distance' for lengths and widths: help
+*shows helpful information*
+*returns to welcome message*
+```
+
+Why did we do this? Because sometimes we all need a little guidance, and what's better than a friendly helper that speaks your language? 🗣️💫
+
 ## Who's Behind This Sorcery? 🧑‍💻
 
 This script was crafted by Jose Luis Chafardet Grimaldi at a point in time where he was a little bored but wanted to keep exploring some algorithms. If you have any questions, feel free to reach out!
